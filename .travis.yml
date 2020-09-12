@@ -13,5 +13,5 @@ python:
     - pypy
     - pypy3
 
-install: pip install 'setuptools<45' . 'pytest<5' 'zipp<2' pytest-cov
+install: pip install 'setuptools<45' . 'pytest<5' 'zipp<2' 'pytest-cov<2.10.0'
 script: py.test -v --cov=surt
